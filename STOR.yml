@@ -1,0 +1,17 @@
+name: STOR
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - astropy
+  - pip
+  - pip:
+      - ois
+      - photutils
+      - astroquery
